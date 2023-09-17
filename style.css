@@ -162,7 +162,7 @@ main {
   }
 }
 .services {
-  background-image: url(../images/BANNER_2.png);
+  background-image: url(/images/BANNER_2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
