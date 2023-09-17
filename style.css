@@ -36,7 +36,7 @@ main {
 }
 
 .header {
-  background-image: url(./images/BANNER_WEB.png);
+  background-image: url(../images/BANNER_WEB.png);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
