@@ -1,0 +1,102 @@
+.horror{
+    padding: 100px 0;
+    background-color: $secondary-color;
+    position:relative;
+}
+
+.horror-content {
+   text-align: center;
+
+}
+
+.horror-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: $primary-color;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color:white;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.horror-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.horror-1 {
+    padding: 0 25px;
+    color:white;
+}
+
+.horror-1 img {
+    width: 200px;
+}
+
+.horror-img {
+    margin-top: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.horror-img2{
+    margin-top: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.horror-1 h3{
+    color: $primary-color;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.services {
+            padding: 30px;
+         }
+         .services-content p{
+            padding: 0;
+         }
+
+         .services-group{
+            flex-direction: column;
+            margin-bottom: 0;
+         }
+
+         .services-1 {
+            margin-bottom: 25px;
+         }
+
+
+
+@media(max-width:791px) {
+    .horror {
+        padding: 100px;
+     }
+
+     .horror-content h2 {
+        padding: 70px 30px;
+        font-size: 30px;
+        line-height: 20px;
+     }
+
+     .txt-p {
+        padding: 0px;
+     }
+     .horror-group {
+        flex-direction: column;
+        margin-bottom: 0px;
+     }
+
+    }
+

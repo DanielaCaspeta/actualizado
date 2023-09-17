@@ -1,0 +1,116 @@
+.horror{
+    padding: 100px 0;
+    background-color: #000000;
+    position:relative;
+}
+
+.horror-content {
+   text-align: center;
+
+}
+
+.horror-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #9b0b0b;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color:white;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.horror-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.horror-1 {
+    padding: 0 25px;
+}
+
+.horror-1 img {
+    width: 200px;
+}
+
+.horror-img {
+    margin-top: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.horror-img2{
+    margin-top: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.horror-1 h3{
+    color: #9b0b0b;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+.services{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(../images/BANNER_2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+}
+
+
+@media(max-width:791px) {
+    .horror {
+        padding: 20px;
+     }
+
+     .horror-content h2 {
+        padding: 0px;
+     }
+
+     .txt-p {
+        padding: 0px;
+     }
+     .horror-group {
+        flex-direction: column;
+        margin-bottom: 0px;
+     }
+     .horror-img .horror-img2{
+        display: none;
+      
+     }
+
+     .services {
+        padding: 30px;
+     }
+     .services-content p{
+        padding: 0;
+     }
+
+     .services-group{
+        flex-direction: column;
+        margin-bottom: 0;
+     }
+
+     .services-1 {
+        margin-bottom: 25px;
+     }
+
+
+}

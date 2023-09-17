@@ -1,0 +1,40 @@
+
+$primary-color: #9b0b0b;
+$secondary-color: black;
+$font-family: 'Poppins', sans-serif;
+
+
+
+header {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}

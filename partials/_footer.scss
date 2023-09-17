@@ -1,0 +1,45 @@
+.footer {
+    padding: 40px 10px;
+    background-color: $primary-color;
+  }
+  .footer-text {
+    padding: 10px;
+    text-align: center;
+    color:white;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .link h3 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 6px;
+    margin-inline: 30px;
+  }
+  
+  .link a {
+    font-size: 16px;
+    color: #C5C5C5;
+    display: block;
+    margin-bottom: 6px;
+    margin-inline: 30px;
+  }
+
+  @media(max-width:791px) {
+    .footer {
+        padding: 70px;
+     }
+
+     .footer-content{
+        flex-direction: column;
+        text-align: center;
+     }
+  }
+
+  
+  
+  
+  

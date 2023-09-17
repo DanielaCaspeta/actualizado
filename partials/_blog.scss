@@ -1,0 +1,40 @@
+.blog {
+    padding: 100px 0;
+    text-align: center;
+    background-color:$secondary-color;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.blog-1 {
+    padding: 15px 55px;
+    color:white;
+}
+
+.blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: $primary-color;
+}
+
+@media(max-width:791px) {
+    .blog{
+        padding: 30px;
+     }
+     .blog-content {
+        flex-direction: column;
+     }
+
+     .blog-1 {
+        padding: 0;
+     }
+    }
