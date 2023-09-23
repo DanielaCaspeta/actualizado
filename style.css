@@ -59,7 +59,7 @@ main {
 .logo {
   /*range: url(/images/LOGO.png);*/
   position: relative;
-  width: 300px;
+  width: 200px;
   padding: 50px;
 }
 
@@ -69,8 +69,8 @@ main {
 }
 
 .menu .navbar ul li a {
-  font-size: 18px;
-  padding: 20px;
+  font-size: 16px;
+  padding: 10px;
   color: white;
   display: block;
   font-weight: 600;
@@ -93,7 +93,16 @@ main {
   display: none;
 }
 
-@media (max-width: 791px) {
+@media (max-width: 1053px) {
+  .header {
+    background-image: url(./images/BANNER_WEB.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+  }
   .menu {
     padding: 30px;
   }
@@ -172,6 +181,7 @@ main {
 
 .services-content {
   text-align: center;
+  flex-direction: row;
 }
 
 .services-content h2 {
@@ -179,7 +189,7 @@ main {
   line-height: 70px;
   color: white;
   text-transform: uppercase;
-  margin-bottom: 50PX;
+  margin-bottom: 50px;
 }
 
 .services-content p {
@@ -191,6 +201,7 @@ main {
 
 .services-group {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin-bottom: 50px;
 }
@@ -351,11 +362,21 @@ main {
   padding: 15px 35px;
   border-radius: 100px;
   background-color: #9b0b0b;
+  align-items: center;
   font-family: "Poppins", sans-serif;
 }
 .btn-enviar:hover {
   background: rgb(33, 32, 32);
   transition: 0.5s;
+}
+
+.t-1 h1 {
+  color: #9b0b0b;
+  text-align: center;
+  font-size: 60px;
+  line-height: 100px;
+  padding: 70px;
+  margin-bottom: 5px;
 }
 
 .horror {
@@ -383,6 +404,9 @@ main {
   color: white;
   padding: 0 250px;
   margin-bottom: 35px;
+  padding: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .horror-group {
@@ -421,42 +445,23 @@ main {
 }
 
 @media (max-width: 791px) {
-  .horror {
-    padding: 100px;
-    background-color: black;
-  }
-  .horror-content h2 {
-    color: white;
-    padding: 70px 30px;
-    font-size: 30px;
-    line-height: 20px;
-  }
-  .txt-p {
-    padding: 0px;
+  .horror .horror-content h2 {
+    font-size: 40px; /* Tamaño de fuente más pequeño */
+    margin: 40px 0; /* Margen superior e inferior reducido */
+    padding: 10px;
+    flex-direction: column;
+    padding: 10px;
   }
   .horror-group {
     flex-direction: column;
     margin-bottom: 0px;
   }
-}
-@media (max-width: 791px) {
-  .horror {
-    padding: 20px;
+  .horror-1 {
+    padding: 15px;
+    margin: 10px;
   }
-  .horror-content h2 {
-    padding: 100px;
-  }
-  .txt-p {
-    padding: 0px;
-  }
-  .horror-group {
-    flex-direction: column;
-    margin-bottom: 0px;
-  }
-  .horror-img .horror-img2 {
+  .hands {
     display: none;
-    width: 100%;
-    padding: 10;
   }
 }
 .horror {
@@ -467,6 +472,8 @@ main {
 
 .horror-content {
   text-align: center;
+  justify-content: space-between;
+  margin: 1.5%;
 }
 
 .horror-content h2 {
@@ -501,17 +508,19 @@ main {
 }
 
 .horror-img {
-  margin-top: 40px;
-  position: absolute;
+  margin-top: 20px;
+  position: sticky;
   top: 0;
   right: 0;
+  padding: 20px;
 }
 
 .horror-img2 {
-  margin-top: 40px;
-  position: absolute;
+  margin-top: 20px;
+  position: sticky;
   top: 0;
   left: 0;
+  padding: 20px;
 }
 
 .horror-1 h3 {
@@ -520,38 +529,24 @@ main {
   margin-bottom: 15px;
 }
 
-.services {
-  padding: 30px;
-}
-
-.services-content p {
-  padding: 0;
-}
-
-.services-group {
-  flex-direction: column;
-  margin-bottom: 0;
-}
-
-.services-1 {
-  margin-bottom: 25px;
-}
-
 @media (max-width: 791px) {
-  .horror {
-    padding: 100px;
-  }
-  .horror-content h2 {
-    padding: 70px 30px;
-    font-size: 30px;
-    line-height: 20px;
-  }
-  .txt-p {
-    padding: 0px;
+  .horror .horror-content h2 {
+    font-size: 40px; /* Tamaño de fuente más pequeño */
+    margin: 120px 0; /* Margen superior e inferior reducido */
+    padding: 30px;
+    flex-direction: column;
+    padding: 10px;
   }
   .horror-group {
     flex-direction: column;
     margin-bottom: 0px;
+  }
+  .horror-1 {
+    padding: 25px;
+    margin: 10%;
+  }
+  .hands {
+    display: none;
   }
 }
 .horror {
@@ -628,9 +623,8 @@ main {
     flex-direction: column;
     margin-bottom: 0px;
   }
-  .horror-img .horror-img2 {
+  .hands {
     display: none;
-    padding: 0;
   }
 }
 .horror {
@@ -697,13 +691,13 @@ main {
 @media (max-width: 791px) {
   .horror .horror-content h2 {
     font-size: 40px; /* Tamaño de fuente más pequeño */
-    margin: 15px 0; /* Margen superior e inferior reducido */
+    margin: 100px 0; /* Margen superior e inferior reducido */
     padding: 30px;
     flex-direction: column;
     padding: 0;
   }
-  .horror-img2 {
-    display: none; /* Ocultar la imagen en pantallas pequeñas */
+  .hands {
+    display: none;
   }
 }
 .layout {
@@ -816,7 +810,7 @@ main {
 }
 
 .services {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/BANNER_2.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/BANNER_2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -838,21 +832,8 @@ main {
     flex-direction: column;
     margin-bottom: 0px;
   }
-  .horror-img .horror-img2 {
+  .hands {
     display: none;
-  }
-  .services {
-    padding: 30px;
-  }
-  .services-content p {
-    padding: 0;
-  }
-  .services-group {
-    flex-direction: column;
-    margin-bottom: 0;
-  }
-  .services-1 {
-    margin-bottom: 25px;
   }
 }
 .layout {
@@ -874,6 +855,10 @@ main {
   list-style: none;
 }
 
+h1 {
+  color: black;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: black;
@@ -891,6 +876,7 @@ body {
   padding: 15px 35px;
   border-radius: 100px;
   background-color: #9b0b0b;
+  align-items: center;
 }
 .btn-1:hover {
   background: rgb(33, 32, 32);

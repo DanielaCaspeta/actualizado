@@ -1,8 +1,17 @@
 
+.t-1 h1{
+    color: $primary-color;
+    text-align: center;
+    font-size: 60px;
+    line-height: 100px;
+    padding:  70px;
+    margin-bottom: 5px;
+}
 .horror{
     padding: 100px 0;
     background-color: $secondary-color;
     position:relative;
+
 }
 
 .horror-content {
@@ -11,7 +20,7 @@
 
 }
 
-.horror-content h2 h3 {
+.horror-content  h2 h3 {
     font-size: 55px;
     line-height: 70px;
     color: $primary-color;
@@ -25,6 +34,9 @@
     color:white;
     padding: 0 250px;
     margin-bottom: 35px;
+    padding: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .horror-group{
@@ -64,50 +76,37 @@
 }
 
 
+
 @media(max-width:791px) {
-    .horror {
-        padding: 100px;
-        background-color: $secondary-color;
-     }
+    .horror .horror-content h2 {
+        font-size: 40px; /* Tamaño de fuente más pequeño */
+        margin: 40px 0; /* Margen superior e inferior reducido */
+        padding: 10px;
+        flex-direction: column;
+        padding: 10px;
+    }
 
-     .horror-content h2 {
-        color: white;
-        padding: 70px 30px;
-        font-size: 30px;
-        line-height: 20px;
-     }
-
-     .txt-p {
-        padding: 0px;
-     }
      .horror-group {
         flex-direction: column;
         margin-bottom: 0px;
+
      }
 
-    }
+     .horror-1{
+       padding: 15px;
+       margin:10px;
+     
+     }
+
+     .hands  {
+        display: none;
+      
+             }
+         
+            }
+    
 
 
 
-    @media(max-width:791px) {
-        .horror {
-            padding: 20px;
-         }
+    
 
-         .horror-content h2 {
-            padding: 100px;
-         }
-
-         .txt-p {
-            padding: 0px;
-         }
-         .horror-group {
-            flex-direction: column;
-            margin-bottom: 0px;
-         }
-         .horror-img .horror-img2{
-            display: none;
-            width: 100%;
-            padding: 10;
-         }
-        }

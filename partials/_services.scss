@@ -10,6 +10,7 @@
 
 .services-content {
   text-align: center;
+  flex-direction: row;
  
 }
 
@@ -18,7 +19,8 @@
   line-height: 70px;
   color:white;
   text-transform: uppercase;
-  margin-bottom: 50PX;
+  margin-bottom: 50px;
+  
 }
 
 .services-content p {
@@ -26,10 +28,12 @@
   color: #C5C5C5;
   margin-bottom: 50px;
   padding: 0 100px;
+  
 }
 
 .services-group {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin-bottom: 50px;
 }

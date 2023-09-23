@@ -6,6 +6,8 @@
 
 .horror-content {
    text-align: center;
+   justify-content: space-between;
+   margin: 1.5%;
 
 }
 
@@ -42,17 +44,19 @@
 }
 
 .horror-img {
-    margin-top: 40px;
-    position: absolute;
+    margin-top: 20px;
+    position: sticky;
     top: 0;
     right: 0;
+    padding: 20px;
 }
 
 .horror-img2{
-    margin-top: 40px;
-    position: absolute;
+    margin-top: 20px;
+    position: sticky;
     top: 0;
     left: 0;
+    padding: 20px;
 }
 
 .horror-1 h3{
@@ -61,42 +65,32 @@
     margin-bottom: 15px;
 }
 
-.services {
-            padding: 30px;
-         }
-         .services-content p{
-            padding: 0;
-         }
-
-         .services-group{
-            flex-direction: column;
-            margin-bottom: 0;
-         }
-
-         .services-1 {
-            margin-bottom: 25px;
-         }
 
 
 
 @media(max-width:791px) {
-    .horror {
-        padding: 100px;
-     }
+    .horror .horror-content h2 {
+        font-size: 40px; /* Tamaño de fuente más pequeño */
+        margin: 120px 0; /* Margen superior e inferior reducido */
+        padding: 30px;
+        flex-direction: column;
+        padding: 10px;
+    }
 
-     .horror-content h2 {
-        padding: 70px 30px;
-        font-size: 30px;
-        line-height: 20px;
-     }
-
-     .txt-p {
-        padding: 0px;
-     }
      .horror-group {
         flex-direction: column;
         margin-bottom: 0px;
      }
 
-    }
+     .horror-1{
+       padding: 25px;
+     margin:10%;
+     
+     }
 
+     .hands  {
+        display: none;
+      
+             }
+         
+            }

@@ -28,7 +28,7 @@
 .logo{
     /*range: url(/images/LOGO.png);*/
     position: relative;
-    width: 300px;
+    width: 200px;
     padding: 50px;
    
     
@@ -40,8 +40,8 @@
 }
 
 .menu .navbar ul li a {
-    font-size: 18px;
-    padding: 20px;
+    font-size: 16px;
+    padding: 10px;
     color:white;
     display: block;
     font-weight: 600;
@@ -68,7 +68,19 @@
 
 
 
-@media(max-width:791px) {
+@media(max-width:1053px) {
+    .header{
+   
+        background-image:
+         url(./images/BANNER_WEB.png); 
+          background-position: center bottom;
+          background-repeat: no-repeat;
+          background-size: cover;
+          min-height: 35vh;
+          display: flex;
+          align-items: center;
+      }
+
     .menu {
         padding: 30px;  
     }

@@ -70,14 +70,15 @@
 
         .horror .horror-content h2 {
             font-size: 40px; /* Tamaño de fuente más pequeño */
-            margin: 15px 0; /* Margen superior e inferior reducido */
+            margin: 100px 0; /* Margen superior e inferior reducido */
             padding: 30px;
             flex-direction: column;
             padding: 0;
         }
         
-        .horror-img2 {
-            display: none; /* Ocultar la imagen en pantallas pequeñas */
-        }
+        .hands {
+            display: none;
+          
+                 }
 
     }
