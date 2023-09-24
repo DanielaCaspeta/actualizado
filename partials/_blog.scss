@@ -1,7 +1,8 @@
 .blog {
     padding: 100px 0;
     text-align: center;
-    background-color:$secondary-color;
+    color: $primary-color;
+   
 }
 
 .blog-content {
@@ -21,7 +22,7 @@
     margin-bottom: 15px;
 }
 
-.blog-1 h3 {
+.blog-1 h3 h2{
     font-size: 25px;
     color: $primary-color;
 }

@@ -237,7 +237,7 @@ main {
 .blog {
   padding: 100px 0;
   text-align: center;
-  background-color: black;
+  color: #9b0b0b;
 }
 
 .blog-content {
@@ -256,7 +256,7 @@ main {
   margin-bottom: 15px;
 }
 
-.blog-1 h3 {
+.blog-1 h3 h2 {
   font-size: 25px;
   color: #9b0b0b;
 }
@@ -443,6 +443,16 @@ main {
   margin-bottom: 15px;
 }
 
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+
 @media (max-width: 791px) {
   .horror .horror-content h2 {
     font-size: 40px; /* Tamaño de fuente más pequeño */
@@ -550,7 +560,7 @@ main {
 }
 .horror {
   padding: 100px 0;
-  background-color: black;
+  background-color: #9b0b0b;
   position: relative;
 }
 
@@ -628,12 +638,13 @@ main {
 }
 .horror {
   padding: 100px 0;
-  background-color: black;
+  background-color: #9b0b0b;
   position: relative;
 }
 
 .horror-content p {
   text-align: center;
+  color: white;
 }
 
 .horror-content h2 h3 {
@@ -824,13 +835,16 @@ main {
   list-style: none;
 }
 
-h1 {
-  color: black;
+.blog h1 h2 {
+  color: #9b0b0b;
+}
+
+p {
+  color: white;
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: black;
 }
 
 .container {

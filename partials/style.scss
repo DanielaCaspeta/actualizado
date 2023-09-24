@@ -22,13 +22,17 @@
   list-style: none;
 }
 
-h1{
-  color: $secondary-color;
+.blog h1 h2 {
+  color: $primary-color;
+}
+
+p{
+  color:white;
 }
 body {
 
   font-family: $font-family;
-  background-color: $secondary-color;
+ 
 }
 
 .container {
