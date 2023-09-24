@@ -234,7 +234,7 @@ main {
     margin-bottom: 25px;
   }
 }
-.blog {
+.blog h2 p {
   padding: 100px 0;
   text-align: center;
   color: #9b0b0b;
@@ -256,8 +256,8 @@ main {
   margin-bottom: 15px;
 }
 
-.blog-1 h3 h2 {
-  font-size: 25px;
+.blog-1 h3 {
+  font-size: 45px;
   color: #9b0b0b;
 }
 
