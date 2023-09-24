@@ -4,60 +4,29 @@
     position:relative;
 }
 
-.horror-content {
+.horror-content  p {
    text-align: center;
 
 }
 
-.horror-content h2 {
+.horror-content h2 h3 {
     font-size: 55px;
     line-height: 70px;
     color: $primary-color;
-    text-transform: uppercase;
-    padding: 0 250px;
+    text-align: center;
+    padding: 250px;
     margin-bottom: 15px;
 }
 
-.txt-p {
-    font-size: 16px;
-    color:white;
-    padding: 0 250px;
-    margin-bottom: 35px;
-}
+
 
 .horror-group{
+    margin-bottom: 50px;
+}
+
+.horror-1 img{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
-
-}
-
-.horror-1{
- 
-    padding: 0 25px;
-   
-}
-
-.horror-1 img {
-    border-radius: 20px;
-    width: 200px;
-}
-
-.horror-img {
-    margin-top: 40px;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.horror-img2{
-    margin-top: 40px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.horror-1 h3{
     color: $primary-color;
     font-size: 20px;
     margin-bottom: 15px;
