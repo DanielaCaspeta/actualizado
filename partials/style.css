@@ -43,49 +43,54 @@ main {
   display: flex;
   align-items: center;
 }
-.header .menu {
-  width: 100%;
-  height: 60px;
-  background: black;
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  z-index: 1000;
+  z-index: 8;
   justify-content: space-between;
   background-color: transparent !important;
 }
-.header .logo {
+
+.logo {
+  /*range: url(/images/LOGO.png);*/
   position: relative;
   width: 200px;
   padding: 50px;
 }
-.header .menu .navbar ul li {
+
+.menu .navbar ul li {
   position: relative;
   float: left;
 }
-.header .menu .navbar ul li a {
+
+.menu .navbar ul li a {
   font-size: 16px;
   padding: 10px;
   color: white;
   display: block;
   font-weight: 600;
 }
-.header .menu .navbar ul li a:hover {
+
+.menu .navbar ul li a:hover {
   color: #9b0b0b;
 }
-.header #menu {
+
+#menu {
   display: none;
 }
-.header .menu-icono {
+
+.menu-icono {
   width: 25px;
 }
-.header .menu label {
+
+.menu label {
   cursor: pointer;
   display: none;
-}
-.header .banner {
-  width: 100%;
-  height: 100vh;
 }
 
 @media (max-width: 1053px) {
@@ -118,10 +123,10 @@ main {
     right: 0;
     display: none;
   }
-  .logo .menu .navbar ul li {
+  .menu .navbar ul li {
     width: 100%;
   }
-  .logo #menu:checked ~ .navbar {
+  #menu:checked ~ .navbar {
     display: initial;
   }
 }
