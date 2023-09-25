@@ -48,5 +48,6 @@ body {
 
 .btn-1 {
   @include button-styles;
+  margin:10px;
   
 }

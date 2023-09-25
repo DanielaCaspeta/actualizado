@@ -243,6 +243,7 @@ main {
 .blog-content {
   display: flex;
   justify-content: space-between;
+  margin: 20px;
 }
 
 .blog-1 {
@@ -850,6 +851,7 @@ body {
   border-radius: 100px;
   background-color: #9b0b0b;
   align-items: center;
+  margin: 10px;
 }
 .btn-1:hover {
   background: rgb(33, 32, 32);

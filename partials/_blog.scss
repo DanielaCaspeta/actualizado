@@ -8,6 +8,7 @@
 .blog-content {
     display: flex;
     justify-content: space-between;
+    margin:20px;
     
 }
 
@@ -26,6 +27,7 @@
     font-size: 45px;
     color: $primary-color;
 }
+
 
 @media(max-width:791px) {
     .blog{
